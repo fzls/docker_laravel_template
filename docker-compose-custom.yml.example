@@ -3,10 +3,10 @@ version: '2'
 services:
     db:
         environment:
-            - MYSQL_DATABASE=tasklist
-            - MYSQL_ROOT_PASSWORD=meow_meow_meow
-            - MYSQL_USER=tasklist
-            - MYSQL_PASSWORD=meow_meow_meow
+            - MYSQL_DATABASE=XXXXX
+            - MYSQL_ROOT_PASSWORD=YYYYY
+            - MYSQL_USER=ZZZZZ
+            - MYSQL_PASSWORD=VVVVV
     volumes_code:
         volumes:
             - .:/code
